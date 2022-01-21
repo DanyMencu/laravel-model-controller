@@ -10,8 +10,8 @@ class MovieController extends Controller
     /**
      * MOVIE
      */
-    public function index() {
-
+    public function index()
+    {
         //* Get all mouvies
         $movies = Movie::all();
 
